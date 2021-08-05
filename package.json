@@ -1,0 +1,23 @@
+{
+  "name": "nomada-v2.0",
+  "version": "1.0.0",
+  "description": "La mejor pagina de Calistenia del mundo mundial ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "nomada",
+    "calistenia",
+    "tienda",
+    "web",
+    "examen",
+    "app"
+  ],
+  "author": "Norman Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "hbs": "^4.1.2"
+  }
+}

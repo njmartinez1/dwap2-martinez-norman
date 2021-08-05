@@ -1,0 +1,202 @@
+body{
+    box-sizing: border-box;
+    margin:0;
+    padding: 0;
+    height: 100vh  !important;
+    font-family: 'Noto Sans', sans-serif;
+    color: #222222;
+}
+.btn-rojo{
+    text-decoration: none;
+    color: #FF642D;
+    font-size: 1.2rem;
+    font-family: 'Anton', Sans;
+    font-weight: 500;
+    background-color:rgb(50, 65, 78);
+    padding:1rem 2rem;
+    border-radius: 20px;
+    display: inline-block;
+    align-self: center;
+    
+}
+.btn-rojo:hover{
+    border-color: #F52600;
+    color:#FF4600  ;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.1em #ff9f1c;
+    transition: translateY(-0.3em);
+}
+.frase{
+    text-align: center;
+}
+#primera-seccion{
+    background: linear-gradient(rgba(68,13,13,0.35),rgba(38,2,2,0.446)), url(../img/calistenia-en-chile.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    height:100vh;
+    color: white;
+}
+#barra{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto 5rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+#logo{
+    margin: 0;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-stretch: wider;
+}
+nav> a{
+    text-decoration: none;
+    color:white;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+nav>a:hover{
+    color: #d8d8d8;
+    border-color: #7DFE06;
+    background-color: #ffbc42;
+    cursor: pointer;
+    box-shadow: 0 0.5em 0.5em -0.1em #ff9f1c;
+    transition: translateY(-0.3em);
+    border-radius: 0.3rem;
+
+}
+#primera-seccion-contenido{
+    margin-top: 8rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+#primera-seccion-contenido>p{
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: bold;
+}
+#primera-seccion-contenido>hr{
+    width: 4.5rem;
+    border-color: #F52600;
+}
+#primera-seccion-contenido>h1{
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-weight: 700;
+    margin-bottom: 2.5rem
+}
+
+#segunda-seccion{
+    background-color: #f4f5f9;
+    min-height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 5rem;
+    font-family: 'Anton', sans-serif;
+    font-size: 2rem;
+}
+
+#tercera-seccion{
+
+    margin: auto;
+    display: flex;
+    font-display: column;
+    width: 80%;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+#titulo{
+    margin-bottom: 2rem;
+}
+#titulo>h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Noto Sans', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+}
+#titulo>hr{
+    width: 4.5rem;
+    border-color: #F52600;
+}
+#container-tercera-seccion{
+    text-align: center;
+    display: flex;
+    font-display: row;
+}
+
+.img-tercera{
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.img-tercera>h6{
+    text-align: center;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 700;
+    margin-bottom: 1rem;
+}
+.img-tercera>p{
+    margin-bottom: 2rem;
+
+}
+.img-tercera>img{
+    max-width: 100%;
+    width: 15rem;
+   
+}
+
+#cuarta-seccion{
+    background: linear-gradient(rgba(68,13,13,0.35),rgba(38,2,2,0.446)), url(../img/parque1.jpg) no-repeat center/cover;
+    background-attachment: fixed;
+    height:100vh;
+    color: white;
+    display:flex;
+    flex-direction: column;
+}
+#contenedor{
+    width: 80%;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.mitad{
+    width: 50%;
+}
+#cuarta-seccion-der>h3{
+    text-transform: uppercase;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+#cuarta-seccion-der >hr{
+    width: 4.5rem;
+    background-color: #fb2056;
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
+#cuarta-seccion-der >p{
+    margin-bottom: 4rem;
+}
+#cuarta-seccion-izq>h3{
+    text-transform: uppercase;
+    font-family: 'Monserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+}
+#cuarta-seccion-izq>hr{
+    width: 4.5rem;
+    background-color: #fb2056;
+    margin-left: 0;
+    margin-bottom: 3rem;
+}
+#cuarta-seccion-izq >p{
+    margin-bottom: 3.9rem;
+}

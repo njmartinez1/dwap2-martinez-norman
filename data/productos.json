@@ -1,0 +1,16 @@
+[{
+    "url":"assets/img/barra.jpg",
+    "nombre":"Barra",
+    "precio": "119.99"
+},
+{
+    "url":"assets/img/chaleco lastrado.jpg",
+    "nombre":"Chaleco Lastrado",
+    "precio": "99.99"
+},
+{
+    "url":"assets/img/jaula.jpg",
+    "nombre":"Jaula de entrenamiento",
+    "precio": "69.99"
+}
+]
